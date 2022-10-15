@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+    background-image: url(./image/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #81abe0;
+}
+
+.logo {
+
+    width: 20%;
+
+    float: left;
+}
+
+.logo h2 {}
+
+.logo h2 span {
+    font-weight: 100;
+    font-size: 18px;
+    display: block;
+
+}
+
+nav {
+    width: 80%;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    font-size: 17px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(26, 224, 224);
+}
+
+.banner {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.banner h3 {
+    font-size: 30px;
+    margin: 50px 0 5px 0;
+    font-style: italic;
+}
+
+.banner span {
+    height: 3px;
+    width: 100px;
+    background-color: red;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.banner h1 {
+    font-size: 70px;
+    padding: 20px 0 0 0;
+    font-style: italic;
+}
+
+.banner button {
+    font-size: 20px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    color: white;
+    border: 3px solid white;
+    background: red;
+    letter-spacing: 2px;
+    margin: 38px 0 0 0;
+}
+
+/* upcoming section */
+.upcoming {}
+
+.upcoming h3 {
+    font-size: 30px;
+    margin: 0 0 5px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.upcoming span {
+    height: 3px;
+    width: 100px;
+    background-color: red;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.col {
+    width: 50%;
+    float: left;
+}
+
+.event {
+    padding: 22px 93px 0 8px;
+    text-align: center;
+}
+
+.event img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 10px 10px 1px #a59e9ed9;
+}
+
+.event h4 {
+    font-size: 25px;
+    padding: 30px 0 25px;
+}
+
+.event p {
+    font-size: 17px;
+    color: rgb(77, 71, 71);
+
+}
+
+.event a {
+    color: red;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* explore */
+section {
+    overflow: hidden;
+}
+
+.explorer {
+    padding: 20px 0;
+    background-image: url(/image/ship1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.world {
+    width: 50%;
+    float: right;
+    padding: 50px 0;
+}
+
+.world h1 {
+    font-size: 70px;
+    padding: 30px 0 0 0;
+    font-style: italic;
+}
+
+.world span {
+    height: 3px;
+    width: 100px;
+    background-color: red;
+    display: block;
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+
+.world p {
+    font-size: 17px;
+    color: white;
+}
+
+.world a {
+    color: white;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* upcoming */
+.upcoming {
+    margin: 100px;
+}
+
+.collum {
+    width: 33.33%;
+    float: left;
+
+}
+
+.tour-plan {
+    padding: 20px;
+}
+
+.tour-plan h3 {
+    font-size: 30px;
+    margin: 50px 0 5px 0;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+    padding: 0 0 8px 0;
+    font-style: italic;
+
+}
+
+.tour-plan span {
+    height: 3px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    margin-bottom: 35px;
+
+}
+
+.tour-plan p {
+    font-size: 17px;
+    color: black;
+
+}
+
+.tour-plan a {
+    color: rgb(0, 0, 0);
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.town1 {
+    height: 370px;
+    width: 400px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+.town2 {
+    height: 450px;
+    width: 400px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+/* footer */
+.footer {
+    padding: 100px 0;
+    background-image: url(/image/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgb(64, 74, 87);
+    text-align: center;
+    font-size: 25px;
+    line-height: 35px;
+    margin: 0;
+}
