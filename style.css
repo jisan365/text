@@ -166,7 +166,7 @@ section {
 
 .explorer {
     padding: 20px 0;
-    background-image: url(/image/ship1.jpg);
+    background-image: url(./image/ship1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -278,7 +278,7 @@ section {
 /* footer */
 .footer {
     padding: 100px 0;
-    background-image: url(/image/banner-1.jpg);
+    background-image: url(./image/banner-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
